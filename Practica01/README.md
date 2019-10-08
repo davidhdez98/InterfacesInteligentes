@@ -7,4 +7,4 @@ Como se especifica en el enunciado, he añadido dos esferas. Sin embargo, las he
 # Creación de árboles y agua
 A partir de los Standard Assets podemos añadir el agua, que solo cubrirá parte del terreno, al haber diferentes alturas en el mismo. Se identifica con la etiqueta Mar. Del mismo modo, añadimos los árboles a partir de los Standard Assets. Si bien Unity nos da la opción de añadir un árbol desde el menú de Game Objects, añadirlo desde los Standard Assets no solo nos da un mejor resultado, sino que nos permite elegir entre distintos árboles, y añadirlos de una forma determinada. En mi caso, he añadido coníferas, utilizando la herramienta **Brush**. Es por ello que no se ha creado un objeto nuevo para los árboles, así que tampoco habrá etiquetas. 
 
-![Gift](Practica01/gift.gif)
+![Gift](https://github.com/alu0101048239/InterfacesInteligentes/blob/master/Practica01/gift.gif)
