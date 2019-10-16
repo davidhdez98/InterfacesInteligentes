@@ -7,12 +7,12 @@ Situándonos sobre el cubo, le damos a Add component < New Script, le ponemos un
 # Movimiento del objeto
 Para conseguir que el objeto se mueva, lo primero que hacemos es declarar una variable pública, _public float speed = 10f;_. Esta variable indica la velocidad con la que se va a mover el objeto. Al hacerla pública, esta variable se podrá modificar desde el inspector de objetos, incluso en tiempo de ejecución. A continuación, escribimos la siguiente instrucción, que explicaremos seguidamente:
 
-            **transform.Translate(new Vector3(-1,0,0) * speed * Time.deltaTime);**
+                                transform.Translate(new Vector3(-1,0,0) * speed * Time.deltaTime);  
             
 Para mover el objeto, han de modificarse los valores del componente **transform**, de ahí que lo utilicemos. Además, el programa ya entiende que se quiere acceder al transform del objeto sobre el que está aplicado el script, de modo que no es necesario especificar el objeto antes. El método que nos permite realizar el movimiento es el **translate**. Este solicita dos parámetros, la dirección hacia la que se mueve y la velocidad con que lo hace. Hay que aclarar que esto no siempre es así; hay distintas aplicaciones de esta función, con más o menos parámetros, pero en este caso utilizaremos esta. Para indicar la posición hacia la que se mueve, creamos un vector de 3 posiciones (Vector3), de modo que indiquemos con un valor distinto de 0 la posición hacia la que se mueve (en este caso, se mueve por el eje x en negativo). Si cambiamos los otros dos valores, se movería en todos los ejes. El otro parámetro calcula la velocidad que tendrá el movimiento, multiplicando la variable inicializada anteriormente con la función **Time.deltaTime**, que lo que hace es adaptarse al ordenador en concreto.      
 
-  Haremos esta intrucción 4 veces, para poder moverlo hacia los lados y hacia delante y atrás (simplemente lo moveremos sobre el suelo, es decir, no tocaremos el eje Y). Por otro lado, para conseguir que el objeto se mueva cuando se pulse una determinada tecla, pondremos la siguiente instrucción, que está a la espera de que se pulse la flecha izquierda: 
-        **if (Input.GetKey(KeyCode.LeftArrow) )**
+  Haremos esta intrucción 4 veces, para poder moverlo hacia los lados y hacia delante y atrás (simplemente lo moveremos sobre el suelo, es decir, no tocaremos el eje Y). Por otro lado, para conseguir que el objeto se mueva cuando se pulse una determinada tecla, pondremos la siguiente instrucción, que está a la espera de que se pulse la flecha izquierda:        **if (Input.GetKey(KeyCode.LeftArrow) )**
 # Rotación del objeto
+Una vez realizado el código para las cuatro traslaciones posibles, pasamos a las rotaciones. En este caso, también realizaremos cuatro movimientos, con las flechas del teclado, pero pulsando al mismo tiempo la tecla **Shitt**.
 
 
