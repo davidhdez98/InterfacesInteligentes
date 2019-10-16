@@ -1,4 +1,4 @@
-#Introducción a los scripts en Unity
+##Introducción a los scripts en Unity
 En esta práctica vamos a realizar un script para poder mover un Game Object, pero sin utilizar física; simplemente accediendo a los métodos del componente **transform**. 
 #Creación del terreno y el cubo
 Lo primero que hacemos es crear un terreno, que será el suelo sobre el que se moverá nuestro objeto. A continuación, añadimos un Game Object cualquiera, en este caso un cubo, y lo colocamos sobre el terreno. Le aplicamos a cada objeto las texturas y materiales que queramos. 
