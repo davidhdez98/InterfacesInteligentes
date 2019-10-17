@@ -21,7 +21,7 @@ La sintaxis es casi igual que la función para trasladar, pero en este caso el r
 
 A continuación se muestra un gif en el que se observan los distintos movimientos que puede realizar el objeto:
 
-![Gift](https://github.com/alu0101048239/InterfacesInteligentes/blob/master/Practica02/gift.gif)
+![Gift](https://github.com/davidhdez98/InterfacesInteligentes/blob/master/Practica02/Gif.gif)
                                   
 
 
