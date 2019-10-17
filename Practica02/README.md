@@ -13,9 +13,15 @@ Para mover el objeto, han de modificarse los valores del componente **transform*
 
   Haremos esta intrucción 4 veces, para poder moverlo hacia los lados y hacia delante y atrás (simplemente lo moveremos sobre el suelo, es decir, no tocaremos el eje Y). Por otro lado, para conseguir que el objeto se mueva cuando se pulse una determinada tecla, pondremos la siguiente instrucción, que está a la espera de que se pulse la flecha izquierda:        **if (Input.GetKey(KeyCode.LeftArrow) )**
 # Rotación del objeto
-Una vez realizado el código para las cuatro traslaciones posibles, pasamos a las rotaciones. En este caso, también realizaremos cuatro movimientos, con las flechas del teclado, pero pulsando al mismo tiempo la tecla **Shitt**. Por lo tanto, podemos reciclar parte del código. Sin embargo, en este caso usaremos la función **Rotate**. Hay que tener en cuenta que esta no es la única forma de rotar un objeto; también podemos hacer uso de la función **RotateAround**, o utilizar los **Quaternion**. Sin embargo, en este caso utilizaremos la primera opción, escribiendo esta instrucción:
+Una vez realizado el código para las cuatro traslaciones posibles, pasamos a las rotaciones. En este caso, también realizaremos cuatro movimientos, con las flechas del teclado, pero pulsando al mismo tiempo la tecla **Shitt**. Por lo tanto, podemos reciclar parte del código, añadiendo una segunda condición en el _if_. En este caso usaremos la función **Rotate**. Hay que tener en cuenta que esta no es la única forma de rotar un objeto; también podemos hacer uso de la función **RotateAround**, o utilizar los **Quaternion**. Sin embargo, en este caso utilizaremos la primera opción, escribiendo esta instrucción:
 
                                   transform.Rotate(Vector3.left, speed * Time.deltaTime);
+                                  
+La sintaxis es casi igual que la función para trasladar, pero en este caso el resultado es distinto, ya que lo que conseguimos es que el objeto gire en distintas direcciones. Al igual que en la función anterior, podemos variar la velocidad del giro modificando el valor de la variable _speed_. En este caso utilizamos la misma variable que antes, pero si queremos que el objeto gire a una velocidad distinta de la que se traslada, haríamos lo mismo pero declarando una segunda variable pública. 
+
+A continuación se muestra un gif en el que se observan los distintos movimientos que puede realizar el objeto:
+
+![Gift](https://github.com/alu0101048239/InterfacesInteligentes/blob/master/Practica02/gift.gif)
                                   
 
 
