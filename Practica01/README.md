@@ -16,4 +16,4 @@ A partir de los Standard Assets podemos añadir el agua, que solo cubrirá parte
 # Creación de dos focos de luz
 Por último, he añadido una nueva fuente de luz adicional a la que ya viene por defecto. Rotando su posición, conseguimos que no se ilumine demasiado el terreno, dándole la luz justa y necesaria. 
 
-![Gift](https://github.com/alu0101048239/InterfacesInteligentes/blob/master/Practica01/gift.gif)
+![Gift](https://github.com/davidhdez98/InterfacesInteligentes/blob/master/Practica01/gift.gif)
