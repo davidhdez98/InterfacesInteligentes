@@ -47,7 +47,9 @@ Por otro lado, lo ideal es que cuando una esfera se vuelve a alejar del cilindro
 
 Por último, creamos un nuevo objeto al que le añadimos un nuevo script, _tercer_objeto.cs_. Este script realmente es una copia del script _fisica.cs_, ya que queremos que nuestro nuevo objeto realice las mismas funciones que el primero. La única diferencia es que queremos moverlo con las teclas I,J,L,M, en lugar de los cursores. Sin embargo, debemos darnos cuenta de un último detalle. Antes, para incrementar el contador solo comprobábamos que el objeto jugador se chocara con un objeto obstáculo. Sin embargo, como ahora tenemos dos objetos jugador, tenemos que realizar una comprobación más, tanto en este script como en el de fisica, para asegurarnos que se incrementen ambos contadores si las dos esferas jugador (la verde y la azul) chocan entre sí. 
 
-A continuación se adjunta un gif en el que se aprecia el movimiento aleatorio de una de las esferas obstáculo (roja), así como el movimiento de la esfera azul (Player) con los cursores, y la esfera verde con las teclas indicadas (I,J,L,M). Asimismo, podemos observar el cambio de color de los sensores (cilindros). Por último, prestar atención en la variable **choque**, que es nuestro contador. Tal y como se indica en el guión de la práctica, solo se incrementa cuando el jugador choca contra una esfera, y no cuando choca contra uno de los sensores.
+Como mejora, hemos añadido una pared alrededor de las esferas, para que ninguna de ellas se salga del plano.
+
+A continuación se adjunta un gif en el que se aprecia el movimiento aleatorio de una de las esferas obstáculo (roja), así como el movimiento de la esfera azul (Player) con los cursores, y de la esfera verde con las teclas indicadas (I,J,L,M). Asimismo, podemos observar el cambio de color de los sensores (cilindros). 
 
 ![Gift](https://github.com/davidhdez98/InterfacesInteligentes/blob/master/Practica03/Gif.gif)
 
