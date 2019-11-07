@@ -49,7 +49,7 @@ Por último, queremos que durante la ejecución del juego se pueda encender y ap
 
 A continuación se muestra un gif con el resultado final:
 
-![Gift](https://github.com/davidhdez98/InterfacesInteligentes/blob/master/Practica03/Gif.gif)
+![Gift](https://github.com/davidhdez98/InterfacesInteligentes/blob/master/Practica04/Gif.gif)
 
 
 
