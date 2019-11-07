@@ -45,5 +45,11 @@ La idea principal es que haya varios objetos en la escena, que sirvan de obstác
 
 # Cuarto script: EncenderApagar.cs
 
-Por último, queremos que durante la ejecución del juego se pueda encender y apagar un foco con el teclado. Para ello, crearemos un objeto de tipo **Light**, lo colocamos en la posición deseada y editamos sus características. En este caso, le hemos puesto color a la luz, y mayor intensidad, de modo que se note más la diferencia cuando se encienda y se apague. A continuación, creamos un script implementar esta funcionalidad. Desarrollamos el código para que, cuando se presione la tecla **S**, se encienda el foco y cuando se presiona la tecla **N**, se apague.
+Por último, queremos que durante la ejecución del juego se pueda encender y apagar un foco con el teclado. Para ello, crearemos un objeto de tipo **Light**, lo colocamos en la posición deseada y editamos sus características. En este caso, le hemos puesto color a la luz, y mayor intensidad, de modo que se note más la diferencia cuando se encienda y se apague. A continuación, creamos un script para implementar esta funcionalidad. Desarrollamos el código para que, cuando se presione la tecla **S**, se encienda el foco y cuando se presiona la tecla **N**, se apague.
+
+A continuación se muestra un gif con el resultado final:
+
+![Gift](https://github.com/davidhdez98/InterfacesInteligentes/blob/master/Practica03/Gif.gif)
+
+
 
